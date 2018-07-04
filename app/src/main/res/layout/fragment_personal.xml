@@ -1,0 +1,295 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.pivotalsoft.kammasevasamithi.Fragments.PersonalFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:elevation="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/full_name"
+                android:background="#56c2c2c2"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtFullName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="S/o Kolli Narasimha Rao"
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/father_name"
+                android:background="#56c2c2c2"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtFather"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="S/o Kolli Narasimha Rao"
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/mobile_no"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtMobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="898541027"
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/email"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="rajesh@gmail.com"
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/gothram"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtGothram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="paidipala Gothram"
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/date_of_birth"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtDob"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="24/06/1980"
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/blood_group"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtBloodgroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="O+ Blood Group "
+                android:background="#1ec2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/present_address"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtPresentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:background="#1ec2c2c2"
+                android:text="3-58,mvp sector 4,vizag"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/native_address"
+                android:background="#56c2c2c2"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/txtNativeAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:background="#1ec2c2c2"
+                android:text="3-58,mvp sector 4,vizag"
+                android:layout_weight="1"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_edit"
+        app:fabSize="auto"/>
+
+</FrameLayout>

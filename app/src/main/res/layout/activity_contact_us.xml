@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="8dp"
+    tools:context="com.pivotalsoft.kammasevasamithi.ContactUsActivity">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_centerInParent="true"
+      >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kss_logo"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kss_txt"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/regd_no_36_2014"
+          android:layout_gravity="center_horizontal"
+          android:textSize="16sp"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/d_no_49_53_7_13_t_2_sampada_galaxy_balayyasastri_layout"
+          android:layout_gravity="center_horizontal"
+          android:textSize="12sp"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/seethammadhara_visakhapatnam_530013"
+          android:layout_gravity="center_horizontal"
+          android:textSize="12sp"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/ph_0891_2559494_mobile_9491349494"
+          android:layout_gravity="center_horizontal"
+          android:textSize="12sp"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+          />
+      <Button
+          android:id="@+id/callbutton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="call"
+          android:background="@drawable/rounded_button"
+          android:textColor="@android:color/white"
+          android:layout_marginTop="10dp"
+          android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+
+  </LinearLayout>
+
+
+
+
+</RelativeLayout>

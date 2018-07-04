@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".EditEventActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="40dp">
+
+
+        <EditText
+            android:id="@+id/etEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/event_name"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <EditText
+            android:id="@+id/etVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/venue"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+            />
+
+
+       <!-- <EditText
+            android:id="@+id/etTentDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="@string/tentative_date"
+            android:layout_marginTop="20dp"/>-->
+
+        <EditText
+            android:id="@+id/etStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="@string/event_date"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="@string/description"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+            />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

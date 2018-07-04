@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pivotalsoft.kammasevasamithi">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Services.FireIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.FireMsgService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".utils.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DirectoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddMessagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DonationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GreetingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GallerySliderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AddDonationActivity" />
+        <activity android:name=".AddNewsActivity" />
+        <activity android:name=".EditEventActivity" />
+        <activity android:name=".AddEventsActivity" />
+        <activity android:name=".AddAlbumActivity" />
+        <activity android:name=".AddFamilyActivity" />
+        <activity android:name=".MessagesActivity" />
+        <activity android:name=".RegNotificationActivity" />
+        <activity android:name=".DonationNotificationActivity" />
+        <activity android:name=".AcceptActivity" />
+        <activity android:name=".AddImagesActivity" />
+        <activity android:name=".EditPersonalinfoActivity" />
+        <activity android:name=".EditFamilyActivity"></activity>
+    </application>
+
+</manifest>

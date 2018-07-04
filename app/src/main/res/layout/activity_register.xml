@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    tools:context="com.pivotalsoft.kammasevasamithi.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/uploadImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_account_squre_24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+             />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/txtHintColor"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+             />
+
+        <EditText
+            android:id="@+id/etFatherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:hint="@string/father_husband_name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+             />
+
+        <EditText
+            android:id="@+id/etAdharno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:hint="@string/aadhar_no"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+            />
+
+        <EditText
+            android:id="@+id/etDob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:clickable="true"
+            android:focusable="false"
+            android:ems="10"
+            android:hint="@string/date_of_birth"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+             />
+
+
+        <EditText
+            android:id="@+id/etGothram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/gothram"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/mobile"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:hint="@string/email_optional"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"
+            />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <EditText
+            android:id="@+id/etBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/blood_group"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <EditText
+            android:id="@+id/etRefferedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/reffered_by"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColorHint="@color/txtHintColor"
+            android:ems="10"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:hint="@string/present_address"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <EditText
+            android:id="@+id/etNativePlace"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColorHint="@color/txtHintColor"
+            android:gravity="start"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="@string/native_address"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

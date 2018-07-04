@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayout"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context="com.pivotalsoft.kammasevasamithi.LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/kss_logo"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMobile"
+        android:hint="@string/enter_registered_mobile_no"
+        android:inputType="phone"
+        android:textColorHint="@color/txtHintColor"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:textColorHint="@color/txtHintColor"
+        android:hint="Enter Password"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Login"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here !"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

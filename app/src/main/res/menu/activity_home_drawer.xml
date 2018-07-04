@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/registration_notifications" />
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/ic_notifications_paused_black_24dp"
+            android:title="@string/donation_notifications" />
+
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Change Password" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Share &amp; Reference" />
+    <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Contact Us" />
+
+    <!--<item
+        android:id="@+id/nav_copyRight"
+        android:icon="@drawable/ic_menu_copyright"
+        android:title="Copyright Policy" />-->
+
+
+
+    </group>
+
+
+
+
+
+
+
+</menu>

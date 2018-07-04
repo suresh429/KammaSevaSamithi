@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704660589846",
+    "firebase_url": "https://kammasevasamithi-83ce0.firebaseio.com",
+    "project_id": "kammasevasamithi-83ce0",
+    "storage_bucket": "kammasevasamithi-83ce0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704660589846:android:6d1191a9e7257294",
+        "android_client_info": {
+          "package_name": "com.pivotalsoft.kammasevasamithi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704660589846-u2qebkr4od9rqgr74gvg2qu4fpokpprp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pivotalsoft.kammasevasamithi",
+            "certificate_hash": "d42041257495ef184b476869adba33f3d9439662"
+          }
+        },
+        {
+          "client_id": "704660589846-187mp4148l83f70u5v5tmp88j0a97tqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfYyhQYI6B1cezVWAfIzlLjgtXQwXjbKw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704660589846-187mp4148l83f70u5v5tmp88j0a97tqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

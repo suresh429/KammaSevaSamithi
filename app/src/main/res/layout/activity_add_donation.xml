@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayout"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context="com.pivotalsoft.kammasevasamithi.AddDonationActivity">
+
+   <!-- <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_member_id"
+        android:layout_marginTop="10dp"
+        />-->
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_amount"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"
+         />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/enter_date"
+        android:layout_marginTop="10dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"/>
+
+    <EditText
+        android:id="@+id/etPaymentmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:hint="@string/payment_mode"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"/>
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"/>-->
+
+
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="@string/enter_description"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"/>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
