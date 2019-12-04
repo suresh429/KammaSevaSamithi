@@ -37,6 +37,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class DirectoryActivity extends AppCompatActivity implements ConnectivityReceiver.ConnectivityReceiverListener{
     int color;
     LinearLayout linearLayout;
