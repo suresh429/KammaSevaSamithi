@@ -27,20 +27,12 @@ Button callButton;
         callButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int checkPermission = ContextCompat.checkSelfPermission(ContactUsActivity.this, Manifest.permission.CALL_PHONE);
-                if (checkPermission != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(
-                            ContactUsActivity.this,
-                            new String[]{Manifest.permission.CALL_PHONE},
-                            REQUEST_CALL_PHONE);
-                } else {
 
-                    Intent intent = new Intent(Intent.ACTION_CALL);
-                    intent.setData(Uri.parse("tel:+919491349494"));
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "+919491349494"));// Initiates the Intent
+                startActivity(intent);
 
-                    startActivity(intent);
-                }
+
+
             }
         });
     }
